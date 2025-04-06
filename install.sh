@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 dirs="alacritty bspwm nvim"
-pkgs="alacritty bspwm sxhkd nvim librewolf"
+pkgs="alacritty bspwm sxhkd nvim librewolf i3lock"
 
 if [ "$1" == "--init" ]; then
 	for i in $dirs; do
